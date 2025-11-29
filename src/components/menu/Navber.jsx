@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.png'
 const Navber = () => {
   return (
-     <section className='py-7 border-b-1 border-[#E03609]'>
+     <section className='py-7 border-b-1 border-[#eb4112]'>
          <div className='max-w-[1320px] mx-auto'>
              <div className='flex items-center justify-between'>
               <div className=''>
@@ -12,9 +12,9 @@ const Navber = () => {
                   <ul className='text-white flex gap-10'>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Blog</li>
+                    <li>Blog </li>
                     <li>Pages</li>
-                    <li>Contact</li>
+                    <li>Contact </li>
                   </ul>
               </div>
               <div className=''>

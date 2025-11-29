@@ -3,11 +3,15 @@ import animati1 from "../../assets/bannerabuloteimg1.png";
 import miniimg from "../../assets/Image.png";
 import union from "../../assets/Union.png";
 import union2 from "../../assets/Union (1).png";
+import tasnim from '../../assets/bannerpicture.png'
 
 const Banner = () => {
   return (
     <section className="pb-[60px] border-b-1 border-[#E03609]">
       <div className="max-w-[1320px] mx-auto relative group">
+        <div className="absolute left-[50%]  -translate-x-[50%] w-[690px] top-[300px]">
+          <img src={tasnim} alt="" />
+        </div>
         <img className="absolute -left-30 -top-8" src={union} alt="" />
         <img className="absolute -right-30 -top-8" src={union2} alt="" />
         <div>

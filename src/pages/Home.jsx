@@ -6,9 +6,7 @@ import Neon from './../components/neon/Neon';
 const Home = () => {
   return (
    <>
-     <Navber/>
-     <Banner/>
-     <Neon />
+     
    </>
   )
 }

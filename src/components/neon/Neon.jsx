@@ -1,5 +1,5 @@
 import React from "react";
-import neonimg from "../../assets/neonimg.png";
+import neonimg from "../../assets/neonimgone.png";
 import univalimg from '../../assets/unvilimg.png'
 
 
@@ -40,8 +40,12 @@ const Neon = () => {
                  <div className="pl-18">
                     <h2 className="text-[55px] font-bold text-white w-[500px] leading-[130%]">Unveil <span className="text-[#E03609]">the Secrets of the</span> Cybernetic Underworld</h2>
                     <p className="text-[18px] pb-[60px] text-white pt-[63px] w-[540px] leading-[160%] font-medium">A realm where advanced technology meets dystopian reality. Our website is your gateway to a universe of neon lights, gritty streets, and cybernetic enhancements. </p>
-                    <div className="py-[33px] pl-[40px] border border-[#E03609] rounded-2xl">
+                    <div className="py-[33px] pl-[40px] gap-7 flex border border-[#E03609] rounded-2xl">
                       <img src={univalimg} alt="" />
+                      <div>
+                        <h3 className="text-white">Join the Revolution</h3>
+                        <p className="text-white">Explore the high-tech, low-life world where the lines between humanity and machinery blur.</p>
+                      </div>
                     </div>
                  </div>
             </div>
